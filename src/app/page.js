@@ -125,39 +125,50 @@ export default function Home() {
           Request a Quote
         </h2>
 
-        <form className="max-w-xl mx-auto space-y-4">
+        <form
+          action="https://formspree.io/f/mjgabnek"
+          method="POST"
+          className="max-w-xl mx-auto space-y-4"
+        >
 
           <input
+            name="name"
             className="w-full p-3 rounded border"
             placeholder="Name"
           />
 
           <input
+            name="phone"
             className="w-full p-3 rounded border"
-            placeholder="Phone"
+            placeholder="Phone Number"
           />
 
           <input
+            name="move_date"
             className="w-full p-3 rounded border"
             placeholder="Move Date"
           />
 
           <input
+            name="from_address"
             className="w-full p-3 rounded border"
             placeholder="From Address"
           />
 
           <input
+            name="to_address"
             className="w-full p-3 rounded border"
             placeholder="To Address"
           />
 
           <textarea
+            name="move_details"
             className="w-full p-3 rounded border"
-            placeholder="Describe your move"
+            placeholder="Tell us about your move"
           />
 
           <button
+            type="submit"
             className="w-full bg-green-500 text-white py-3 rounded font-bold"
           >
             Submit Request
