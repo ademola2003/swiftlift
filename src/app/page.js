@@ -1,3 +1,4 @@
+// SwiftLift Express Moving - Landing Page
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-800">
