@@ -17,7 +17,7 @@ export default function Home() {
         <div className="space-x-4">
 
           <a
-            href="tel:682884710"
+            href="tel:6822884710"
             className="bg-green-500 px-6 py-3 rounded font-semibold"
           >
             Call Now
