@@ -114,6 +114,28 @@ export default function Home() {
       </section>
 
 
+      {/* MOVERS WANTED */}
+
+      <section className="bg-white py-20 text-center">
+
+        <h2 className="text-3xl font-bold mb-6">
+          Movers Wanted
+        </h2>
+
+        <p className="mb-8 text-lg">
+          Join the SwiftLift crew. Flexible jobs across the Dallas–Fort Worth area. Earn $45–$50 per hour.
+        </p>
+
+        <a
+          href="/movers"
+          className="bg-green-500 text-white px-6 py-3 rounded font-semibold inline-block hover:bg-green-600"
+        >
+          Apply to Work With Us
+        </a>
+
+      </section>
+
+
       {/* QUOTE FORM */}
 
       <section
