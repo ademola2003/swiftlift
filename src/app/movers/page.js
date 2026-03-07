@@ -4,11 +4,11 @@ export default function Movers() {
 
       <div className="max-w-2xl mx-auto bg-white p-10 rounded-lg shadow-lg">
 
-        <h1 className="text-4xl font-bold text-center mb-4">
+        <h1 className="text-4xl font-bold text-center mb-4 text-black">
           Join the SwiftLift Moving Crew
         </h1>
 
-        <p className="text-center text-gray-600 mb-8">
+        <p className="text-center text-black font-bold mb-8">
           Looking for experienced movers in the Dallas–Fort Worth area.
           Earn $45–$50 per hour with flexible scheduling.
         </p>
