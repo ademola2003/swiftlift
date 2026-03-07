@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Work With SwiftLift</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+font-family: Arial;
+background:#f7f7f7;
+margin:0;
+padding:0;
+}
+
+.container{
+max-width:700px;
+margin:auto;
+padding:40px;
+background:white;
+margin-top:40px;
+border-radius:10px;
+box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+h1{
+text-align:center;
+}
+
+p{
+text-align:center;
+color:#555;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:25px;
+}
+
+input,select,textarea{
+padding:12px;
+border:1px solid #ddd;
+border-radius:6px;
+font-size:16px;
+}
+
+button{
+padding:14px;
+background:#00aaff;
+color:white;
+border:none;
+font-size:18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#008ecc;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Join the SwiftLift Moving Crew</h1>
+
+<p>
+Looking for experienced movers in the Dallas–Fort Worth area.
+Earn $45–$50 per hour with flexible scheduling.
+</p>
+
+<form action="https://formspree.io/f/YOURFORMID" method="POST">
+
+<input type="text" name="name" placeholder="Full Name" required>
+
+<input type="tel" name="phone" placeholder="Phone Number" required>
+
+<input type="number" name="experience" placeholder="Years of Moving Experience">
+
+<select name="strength">
+<option value="">Strength Level</option>
+<option>1 - Light lifting</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5 - Heavy furniture</option>
+</select>
+
+<select name="truck">
+<option value="">Do you have a truck?</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+
+<textarea name="availability" placeholder="Availability (days/times you can work)"></textarea>
+
+<button type="submit">Apply to Join the Crew</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
