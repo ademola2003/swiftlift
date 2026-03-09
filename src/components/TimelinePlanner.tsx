@@ -444,12 +444,12 @@ export default function TimelinePlanner() {
         </div>
 
         {/* Booking Form */}
-        <div id="quote-form" className="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-8 mt-8">
-          <h3 className="text-2xl font-bold mb-6 text-center">Request a Free Quote</h3>
+        <div id="quote-form" className="bg-white bg-opacity-95 backdrop-blur-sm rounded-xl p-8 mt-8">
+          <h3 className="text-2xl font-bold mb-6 text-center text-gray-900">Request a Free Quote</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <label htmlFor="name" className="block text-sm font-semibold mb-2">
+                <label htmlFor="name" className="block text-sm font-semibold mb-2 text-gray-800">
                   Full Name *
                 </label>
                 <input
@@ -459,12 +459,12 @@ export default function TimelinePlanner() {
                   value={formData.name}
                   onChange={handleFormChange}
                   required
-                  className="w-full px-4 py-3 bg-white bg-opacity-20 border-2 border-white border-opacity-30 rounded-lg focus:border-opacity-60 focus:ring-2 focus:ring-white focus:ring-opacity-30 outline-none transition-all text-white placeholder-white placeholder-opacity-60"
+                  className="w-full px-4 py-3 bg-white border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-500 outline-none transition-all text-gray-900 placeholder-gray-500"
                   placeholder="John Doe"
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="block text-sm font-semibold mb-2">
+                <label htmlFor="phone" className="block text-sm font-semibold mb-2 text-gray-800">
                   Phone Number *
                 </label>
                 <input
@@ -474,7 +474,7 @@ export default function TimelinePlanner() {
                   value={formData.phone}
                   onChange={handleFormChange}
                   required
-                  className="w-full px-4 py-3 bg-white bg-opacity-20 border-2 border-white border-opacity-30 rounded-lg focus:border-opacity-60 focus:ring-2 focus:ring-white focus:ring-opacity-30 outline-none transition-all text-white placeholder-white placeholder-opacity-60"
+                  className="w-full px-4 py-3 bg-white border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-500 outline-none transition-all text-gray-900 placeholder-gray-500"
                   placeholder="(555) 123-4567"
                 />
               </div>
@@ -482,7 +482,7 @@ export default function TimelinePlanner() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold mb-2">
+                <label htmlFor="email" className="block text-sm font-semibold mb-2 text-gray-800">
                   Email Address *
                 </label>
                 <input
@@ -492,12 +492,12 @@ export default function TimelinePlanner() {
                   value={formData.email}
                   onChange={handleFormChange}
                   required
-                  className="w-full px-4 py-3 bg-white bg-opacity-20 border-2 border-white border-opacity-30 rounded-lg focus:border-opacity-60 focus:ring-2 focus:ring-white focus:ring-opacity-30 outline-none transition-all text-white placeholder-white placeholder-opacity-60"
+                  className="w-full px-4 py-3 bg-white border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-500 outline-none transition-all text-gray-900 placeholder-gray-500"
                   placeholder="john@example.com"
                 />
               </div>
               <div>
-                <label htmlFor="formMoveDate" className="block text-sm font-semibold mb-2">
+                <label htmlFor="formMoveDate" className="block text-sm font-semibold mb-2 text-gray-800">
                   Preferred Move Date *
                 </label>
                 <input
@@ -507,13 +507,13 @@ export default function TimelinePlanner() {
                   value={formData.moveDate}
                   onChange={handleFormChange}
                   required
-                  className="w-full px-4 py-3 bg-white bg-opacity-20 border-2 border-white border-opacity-30 rounded-lg focus:border-opacity-60 focus:ring-2 focus:ring-white focus:ring-opacity-30 outline-none transition-all text-white"
+                  className="w-full px-4 py-3 bg-white border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-500 outline-none transition-all text-gray-900"
                 />
               </div>
             </div>
 
             <div>
-              <label htmlFor="pickupAddress" className="block text-sm font-semibold mb-2">
+              <label htmlFor="pickupAddress" className="block text-sm font-semibold mb-2 text-gray-800">
                 Pickup Address *
               </label>
               <input
@@ -529,7 +529,7 @@ export default function TimelinePlanner() {
             </div>
 
             <div>
-              <label htmlFor="destinationAddress" className="block text-sm font-semibold mb-2">
+              <label htmlFor="destinationAddress" className="block text-sm font-semibold mb-2 text-gray-800">
                 Destination Address *
               </label>
               <input
@@ -545,7 +545,7 @@ export default function TimelinePlanner() {
             </div>
 
             <div>
-              <label htmlFor="formHomeSize" className="block text-sm font-semibold mb-2">
+              <label htmlFor="formHomeSize" className="block text-sm font-semibold mb-2 text-gray-800">
                 Home Size *
               </label>
               <select
@@ -567,7 +567,7 @@ export default function TimelinePlanner() {
             </div>
 
             <div>
-              <label htmlFor="notes" className="block text-sm font-semibold mb-2">
+              <label htmlFor="notes" className="block text-sm font-semibold mb-2 text-gray-800">
                 Additional Notes
               </label>
               <textarea
@@ -576,7 +576,7 @@ export default function TimelinePlanner() {
                 value={formData.notes}
                 onChange={handleFormChange}
                 rows={4}
-                className="w-full px-4 py-3 bg-white bg-opacity-20 border-2 border-white border-opacity-30 rounded-lg focus:border-opacity-60 focus:ring-2 focus:ring-white focus:ring-opacity-30 outline-none transition-all text-white placeholder-white placeholder-opacity-60 resize-none"
+                className="w-full px-4 py-3 bg-white border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-500 outline-none transition-all text-gray-900 placeholder-gray-500 resize-none"
                 placeholder="Any special requirements or questions?"
               />
             </div>
