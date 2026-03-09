@@ -114,6 +114,97 @@ export default function Home() {
       </section>
 
 
+      {/* FREE MOVING TOOLS */}
+
+      <section className="bg-gradient-to-br from-blue-50 to-green-50 py-20 px-6">
+
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
+            Free Moving Tools
+          </h2>
+
+          <p className="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+            Plan your move with our free calculators and planning tools
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            {/* Tool 1: Moving Cost Calculator */}
+            <a
+              href="/tools/moving-cost-calculator"
+              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all p-6 text-center hover:scale-105 transform duration-200"
+            >
+              <div className="text-5xl mb-4">💰</div>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">
+                Moving Cost Calculator
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Get an instant estimate for your move across Texas
+              </p>
+              <div className="mt-4 text-green-600 font-semibold">
+                Calculate Now →
+              </div>
+            </a>
+
+            {/* Tool 2: Truck Size Calculator */}
+            <a
+              href="/tools/moving-truck-size"
+              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all p-6 text-center hover:scale-105 transform duration-200"
+            >
+              <div className="text-5xl mb-4">🚚</div>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">
+                What Size Truck Do I Need?
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Find the perfect moving truck size for your belongings
+              </p>
+              <div className="mt-4 text-green-600 font-semibold">
+                Find Out →
+              </div>
+            </a>
+
+            {/* Tool 3: Apartment Estimator */}
+            <a
+              href="/tools/apartment-estimator"
+              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all p-6 text-center hover:scale-105 transform duration-200"
+            >
+              <div className="text-5xl mb-4">🏢</div>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">
+                Apartment Moving Estimator
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Calculate costs for studio, 1BR, 2BR, or 3BR apartments
+              </p>
+              <div className="mt-4 text-green-600 font-semibold">
+                Estimate Now →
+              </div>
+            </a>
+
+            {/* Tool 4: Timeline Planner */}
+            <a
+              href="/tools/timeline-planner"
+              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all p-6 text-center hover:scale-105 transform duration-200"
+            >
+              <div className="text-5xl mb-4">📅</div>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">
+                Moving Timeline Planner
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Stay organized with a week-by-week moving checklist
+              </p>
+              <div className="mt-4 text-green-600 font-semibold">
+                Start Planning →
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
       {/* MOVERS WANTED */}
 
       <section className="bg-white py-20 text-center">
