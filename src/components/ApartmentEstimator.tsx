@@ -298,10 +298,10 @@ export default function ApartmentEstimator() {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
             <a
-              href="tel:682XXX4710"
+              href="tel:6822884710"
               className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl"
             >
-              Call Now: (682) XXX-4710
+              Call Now: (682) 288-4710
             </a>
             <button
               onClick={() => setShowQuoteForm(!showQuoteForm)}
@@ -315,7 +315,7 @@ export default function ApartmentEstimator() {
           {showQuoteForm && (
             <div className="max-w-2xl mx-auto mt-8 p-6 bg-gray-50 rounded-xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Get Your Free Quote</h3>
-              <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="space-y-4">
+              <form action="https://formspree.io/f/xgonopqa" method="POST" className="space-y-4">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">

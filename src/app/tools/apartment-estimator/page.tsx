@@ -31,7 +31,7 @@ export default function ApartmentEstimatorPage() {
               image: '',
               '@id': '',
               url: '',
-              telephone: '682-288-4710',
+              telephone: '(682) 288-4710',
               priceRange: '$$',
               address: {
                 '@type': 'PostalAddress',

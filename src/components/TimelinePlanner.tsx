@@ -197,7 +197,7 @@ export default function TimelinePlanner() {
     setSubmitMessage('');
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('https://formspree.io/f/xwvrvwzn', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -425,11 +425,11 @@ export default function TimelinePlanner() {
             Let SwiftLift Moving handle the heavy lifting while you focus on the exciting parts of your move.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
-            <div className="text-3xl font-bold">Call or Text: (682) XXX-4710</div>
+            <div className="text-3xl font-bold">Call or Text: (682) 288-4710</div>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <a
-              href="tel:682XXX4710"
+              href="tel:6822884710"
               className="px-8 py-4 bg-white text-purple-600 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               Call Now

@@ -73,7 +73,7 @@ export default function MovingCostCalculatorPage() {
             </p>
 
             <a
-              href="tel:682-288-4710"
+              href="tel:6822884710"
               className="inline-block bg-white text-blue-600 font-bold text-3xl md:text-4xl py-6 px-12 rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all mb-8"
             >
               (682) 288-4710
@@ -81,13 +81,13 @@ export default function MovingCostCalculatorPage() {
 
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <a
-                href="tel:682-288-4710"
+                href="tel:6822884710"
                 className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg shadow-lg transform transition-all hover:scale-105 text-lg"
               >
                 📞 Call Now
               </a>
               <a
-                href="sms:682-288-4710"
+                href="sms:6822884710"
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg shadow-lg transform transition-all hover:scale-105 text-lg"
               >
                 💬 Text Us

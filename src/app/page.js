@@ -21,7 +21,7 @@ export default function Home() {
             href="tel:6822884710"
             className="bg-green-500 px-6 py-3 rounded font-semibold"
           >
-            Call Now
+            📞 (682) 288-4710
           </a>
 
           <a

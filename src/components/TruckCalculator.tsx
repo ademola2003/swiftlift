@@ -143,7 +143,7 @@ export default function TruckCalculator() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('https://formspree.io/f/xeerepdо', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -322,15 +322,15 @@ export default function TruckCalculator() {
             </p>
 
             <a
-              href="tel:682-288-4710"
+              href="tel:6822884710"
               className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold text-2xl py-4 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all mb-4"
             >
-              📞 Call (682) 288-4710
+              📞 (682) 288-4710
             </a>
 
             <div className="flex justify-center gap-4">
               <a
-                href="tel:682-288-4710"
+                href="tel:6822884710"
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow transform hover:scale-105 transition-all"
               >
                 Call Now
